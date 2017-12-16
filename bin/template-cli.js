@@ -6,13 +6,13 @@ let commander = require("commander"),
 
 commander
     .version(package.version)
-    .option("-c, --config [remote-url]", "config remote url")
+    .option("-s, --server [server-url]", "config server url")
     .option("-t, --template [template-name]", "download template name")
     .option("-tv, --templateVersion [template-version]", "download template version")
     .parse(process.argv);
 
-templateCli.start({
-    config: commander.config,
+templateCli.download({
+    server: commander.server,
     template: commander.template,
     version: commander.templateVersion
 });

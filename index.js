@@ -1,3 +1,3 @@
-let templateCli = require("./lib");
+let TemplateCli = require("./lib");
 
-module.exports = templateCli;
+module.exports = TemplateCli;
