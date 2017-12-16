@@ -5,7 +5,7 @@ template-cli
 安装
 ---
 ```
-npm install -g template-cli
+npm install -g template-gen-cli
 ```
 
 配置
