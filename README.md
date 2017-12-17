@@ -23,6 +23,7 @@ npm install -g template-gen-cli
             "1.0.0": {
                 "name": "hello.zip", // 模版存放在本地的名字
                 "path": "/template/hello.zip", // 模版的路径，基于 server 配置
+                "description": "描述信息，列出模版名时会显示",
                 "options": [ // 由使用者自己选择是否需要的功能
                     {
                         "type": "confirm",
@@ -76,5 +77,8 @@ npm install -g template-gen-cli
 #### -t
 > 指定模版本的名字
 
-### －tv
+### －e
 > 指定模版的版本
+
+### -l 
+> 列出可用的版本
